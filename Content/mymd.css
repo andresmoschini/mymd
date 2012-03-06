@@ -1,0 +1,71 @@
+﻿textarea {
+    font-family: monospace;
+}
+
+#leftContainer, #rightContainer 
+{
+    padding: 0;
+    position: relative;
+    width: 47.5%;
+}
+#leftContainer {
+    float: left;
+    left: 1.5%;
+}
+#rightContainer {
+    float: right;
+    right: 1.5%;
+}
+#rightContainer > * {
+    float: right;
+}
+
+.pane {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #EEEEEE;
+    border-color: #888888 #000000 #000000 #888888;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    height: 400px;
+    margin: 0;
+    padding: 0 0 0 4px;
+    width: 100%;
+}
+#previewPane {
+    background-color: #FFFFFF;
+}
+#outputPane {
+    background-color: #6C6666;
+    color: #FFFFFF;
+    display: none;
+}
+div.pane {
+    overflow: auto;
+}
+#inputPane {
+    background-color: #FFFFFF;
+}
+#previewPane {
+    padding: 0;
+}
+#previewPane > * {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+#previewPane > blockquote {
+    margin-left: 3em;
+}
+#previewPane > *:first-child {
+    margin-top: 4px;
+}
+#previewPane * {
+    line-height: 1.4em;
+}
+#previewPane code {
+    font-size: 1.3em;
+}
