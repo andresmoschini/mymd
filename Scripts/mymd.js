@@ -10,6 +10,7 @@
 //  http://softwaremaniacs.org/playground/showdown-highlight/
 //  http://github.github.com/github-flavored-markdown/preview.html
 //  http://www.toptensoftware.com/markdowndeep/
+//  http://bergie.github.com/hallo/markdown.html
 
 
 $(function () {
